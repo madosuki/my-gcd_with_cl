@@ -1,12 +1,3 @@
-(defun swap (a b)
-  (let ((tmp 0)
-        (left a)
-        (right b))
-    (setq tmp left)
-    (setq left right)
-    (setq right tmp)
-    (values left right)))
-
 (defvar *quotient-list* (list nil))
 (defvar *remainder-list* (list nil))
 
